@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [idea, setIdea] = useState("");
+  const [idea, setIdea] = useState('');
   const [isloading, setIsLoading] = useState();
 
   const fetchData = () => {
